@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav>
+        <ul>
+            <li><a href="#personal-info">About Me</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#favorite-links">Links</a></li>
+            <li><a href="#quote">Quote</a></li>
+            <li><a href="#favorites-list">Top Ten</a></li>
+            <li><a href="#images">Gallery</a></li>
+            <li><a href="#info-table">Education</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+   <!-- Header Section -->
+<header>
+    <div class="profile-image">
+        <img src="kareeb.jpg" alt="Profile Image Placeholder">
+    </div>
+    <h1>Khan Mohammad Al Kareeb</h1>
+    <p>Software Engineer & Web Developer</p>
+</header>
+
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Personal Info Section -->
+        <section id="personal-info">
+            <h2>About Me</h2>
+            <p>Hello! I’m Kareeb Khan, a software engineer with a passion for creating interactive and responsive web applications. With a background in computer science, I have expertise in front-end technologies, user experience design, and back-end development.</p>
+            <p>Based in New York, I love combining technology with creativity to solve real-world problems. Feel free to explore my work below or connect with me on LinkedIn!</p>
+        </section>
+
+        <!-- Hobbies Section -->
+       <section id="hobbies">
+    <h2>Hobbies</h2>
+    <p>In my spare time, I enjoy various activities that allow me to relax and be creative. Here are a few of my favorite hobbies:</p>
+    
+    <!-- Hobbies Grid for Images -->
+    <div class="hobbies-grid">
+        <div class="hobby-box">
+            <p>Movies</p>
+            <img src="pic-1.jpg" alt="Placeholder for Photography">
+        </div>
+        <div class="hobby-box">
+            <p>Sketching</p>
+            <img src="pic-2.jpg" alt="Placeholder for Hiking">
+        </div>
+        <div class="hobby-box">
+            <p>Biking</p>
+            <img src="pic-3.jpg" alt="Placeholder for Music">
+        </div>
+    </div>
+</section>
+
+        <!-- Favorite Links Section -->
+        <section id="favorite-links">
+            <h2>Favorite Links</h2>
+            <ul>
+                <li><a href="https://www.bracu.ac.bd/">BRAC University</a></li>
+                <li><a href="https://piazza.com/">CSE 391 Piazza Page</a></li>
+                <li><a href="https://github.com/">GitHub</a> - My go-to platform for sharing code and collaborating on projects.</li>
+                <li><a href="https://www.linkedin.com/">LinkedIn</a> - Connect with me professionally here.</li>
+                <li><a href="https://www.medium.com/">Medium</a> - Where I share insights and tech articles.</li>
+            </ul>
+        </section>
+
+        <!-- Quote Section -->
+        <section id="quote">
+            <h2>Favorite Quote</h2>
+            <p><em>"The only limit to our realization of tomorrow is our doubts of today." – Franklin D. Roosevelt</em></p>
+        </section>
+
+        <!-- List Section -->
+        <section id="favorites-list">
+            <h2>Top Ten Favorite Books</h2>
+            <ol>
+                <li>The Pragmatic Programmer by Andy Hunt and Dave Thomas</li>
+                <li>Clean Code by Robert C. Martin</li>
+                <li>The Art of Computer Programming by Donald Knuth</li>
+                <li>Design Patterns by Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides</li>
+                <li>JavaScript: The Good Parts by Douglas Crockford</li>
+                <li>Refactoring by Martin Fowler</li>
+                <li>Deep Work by Cal Newport</li>
+                <li>The Lean Startup by Eric Ries</li>
+                <li>Atomic Habits by James Clear</li>
+                <li>Thinking, Fast and Slow by Daniel Kahneman</li>
+            </ol>
+        </section>
+
+        <!-- Images Section -->
+        <!-- <section id="images">
+            <h2>Gallery</h2>
+            <img src="local-image.jpg" alt="Local Image of a project">
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+        </section> -->
+
+        <!-- Table Section -->
+        <!-- Table Section -->
+<section id="info-table">
+    <h2>Education Background</h2>
+    <table>
+        <tr>
+            <th>Institution</th>
+            <th>Program</th>
+            <th>CGPA</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td>BRAC University</td>
+            <td>Undergraduate</td>
+            <td>tba</td>
+            <td>2021-present</td>
+        </tr>
+          <tr>
+            <td>Dhaka Imperial College</td>
+            <td>Higher Secondary Certificate</td>
+            <td>5.00</td>
+            <td>2020</td>
+        </tr>
+          <tr>
+            <td>Faizur Rahman Ideal</td>
+            <td>Secondary School Certificate</td>
+            <td>4.61</td>
+            <td>2018</td>
+        </tr>
+        
+    </table>
+</section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Page location: [Your URL]</p>
+        <p id="last-modified"></p>
+    </footer>
+
+    <script>
+        document.getElementById('last-modified').textContent = `Last modified: ${document.lastModified}`;
+    </script>
+</body>
+</html>
